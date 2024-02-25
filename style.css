@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg-header-desktop.png');
+    font-family: Bai Jamjuree;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.mainbg{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+.logo1{
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.logopara{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+}
+.para2{
+    font-size: 9px;
+    color: hsl(201, 11%, 66%);
+    width: 350px;
+    text-align: center;
+}
+div button{
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.b1{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 8px 15px hsl(171, 66%, 44%, 0.3);
+
+}
+.b2{
+    background-color:hsl(233, 100%, 69%) ;
+    box-shadow: 0 8px 15px hsl(233, 100%, 69%, 0.3);
+
+}
+.secondpara1{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    text-align: center;
+}
+.secondpara2{
+    font-size: 9px;
+    color: hsl(201, 11%, 66%);
+    width: 350px;
+    text-align: center;
+}
+.compimage{
+    width: 280px;
+    height: 230px;
+}
+.search{
+    font-weight: 600;
+    color: hwb(212 30% 64%);
+    font-size: 12px; 
+}
+.search1{
+    font-size: 8px;
+    color: hsl(201, 11%, 66%);
+    width: 180px;
+}
+.deviceimg{
+    width: 400px;
+}
+.secondpara3{
+    font-size: 8px;
+    color: hsl(201, 11%, 66%);
+    width: 300px;
+    text-align: center;
+}
+.blacklist{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+}
+.imag3{
+    width: 20px;
+}
+.black-desc{
+    font-size: 8px;
+    color: hsl(201, 11%, 66%);
+    width: 180px;
+    text-align: center;
+}
+.img4{
+    width: 90px;
+    height: 25px;
+}
+.footer{
+    background-color:rgb(241, 239, 239) ;
+    height: 100px;
+}
+.footerdiv1{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.logofooter{
+    width: 30px;
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+    font-size: 9px;
+    width: 70px;
+    margin: 3px 0px;
+}
+.footerimg1{
+    width: 12px;
+    margin: 0px 3px;
+}
+
+@media (max-width : 375px) {
+    .logopara{
+        font-weight: 600;
+        color : hsl(210, 10%, 33%);
+        font-size : 22px;
+        width: 220px;
+        text-align: center;
+    }
+    .para2{
+        font-size: 10px;
+        color: hsl(201, 11%, 66%);
+        width:200px;
+        text-align: center;
+    }
+    div button{
+        font-size: 12px;
+    }
+    .button2{
+        flex-direction: column;
+        width: 180px;
+    }
+    
+    .secondpara1{
+        text-align: center;
+        width: 190px;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondpara2{
+        font-size: 10px;
+        width: 195px;
+        text-align: center;
+    }
+    .computer{
+        display: flex;
+        flex-direction: column;
+    }
+    .computerdesc{
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    .search{
+        font-size: 15px; 
+    }
+    .search1{
+        font-size: 10px;
+        width: 185px;
+    }
+    .secondpara3{
+        font-size: 10px;
+        width: 200px;
+    }
+    .deviceimg{
+        width: 320px;
+    }
+   .Aisnippet{
+    flex-direction: column;
+   }
+   .imag3{
+    width: 30px;
+}
+.black-desc{
+    font-size: 10px;
+    width: 180px;
+    text-align: center;
+}
+.images5{
+    flex-direction: column;
+}
+.img4{
+    width: 110px;
+    height: 30px;
+}
+.footerdiv1{
+    flex-direction: column;
+}
+.logofooter{
+    width: 30px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 10px;
+    width: 80px;
+    margin-right: 30px;
+}
+.privacy{
+    margin: auto;
+    margin-top: 2px;
+}
+.install{
+    margin-left: 45px;
+}
+.footer{
+    height: 250px;
+}
+.footerimg1{
+    width: 12px;
+    margin-left: 25px;
+}
+.footerimage{
+   margin-right:30px; 
+}
+}
