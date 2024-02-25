@@ -5,17 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+    @media only screen and (min-width : 376px) and (max-width : 1440px) {
+        body{
+            font-family: Bai Jamjuree;            
+            background-color: black;
+            width: 50%;
+            margin: auto;
+
+        }
+.mainbg{
     background-image: url('./images/bg-header-desktop.png');
-    font-family: Bai Jamjuree;
+    width: 100%;
+    background-color: white;
     background-repeat: no-repeat;
     background-size: 100%;
 
-}
-.mainbg{
-    width: 100%;
-    height: 50%;
-    margin-top: 20px;
 }
 .logo1{
     width: 60px;
@@ -24,15 +29,18 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
     
 }
 .logopara{
     font-weight: 600;
     color: hsl(210, 10%, 33%);
-    font-size: 22px;
+    font-size: 23px;
+    margin: auto;
 }
 .para2{
-    font-size: 9px;
+    font-size: 10px;
     color: hsl(201, 11%, 66%);
     width: 350px;
     text-align: center;
@@ -42,16 +50,16 @@ div button{
     border-radius: 50px;
     color: white;
     font-size: 10px;
-    padding: 5px 10px;
+    padding: 6px 20px;
 }
 .b1{
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 0px 8px 15px hsl(171, 66%, 44%, 0.3);
+    box-shadow: 0px 20px 30px -5px hsl(171, 66%, 44%, 0.3);
 
 }
 .b2{
     background-color:hsl(233, 100%, 69%) ;
-    box-shadow: 0 8px 15px hsl(233, 100%, 69%, 0.3);
+    box-shadow: 0 20px 30px -5px hsl(233, 100%, 69%, 0.3);
 
 }
 .secondpara1{
@@ -65,33 +73,40 @@ div button{
     color: hsl(201, 11%, 66%);
     width: 350px;
     text-align: center;
+    margin-bottom: 25px;
 }
 .compimage{
-    width: 280px;
-    height: 230px;
+    width: 350px;
+    height: 290px;
+}
+.computer{
+    display: block;
+    transform: translate(-55px);
+
 }
 .search{
     font-weight: 600;
     color: hwb(212 30% 64%);
-    font-size: 12px; 
+    font-size: 13px; 
 }
 .search1{
     font-size: 8px;
     color: hsl(201, 11%, 66%);
     width: 180px;
+    margin-bottom: 25px;
 }
 .deviceimg{
     width: 400px;
 }
 .secondpara3{
-    font-size: 8px;
+    font-size: 9px;
     color: hsl(201, 11%, 66%);
-    width: 300px;
+    width: 350px;
     text-align: center;
 }
 .blacklist{
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 120px;
     margin: auto;
 }
 .imag3{
@@ -109,12 +124,12 @@ div button{
 }
 .footer{
     background-color:rgb(241, 239, 239) ;
-    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    height: 85px;
 }
 .footerdiv1{
     text-align: center;
-    margin: auto;
-    padding-top: 20px;
 
 }
 .logofooter{
@@ -133,8 +148,9 @@ ul li{
     width: 12px;
     margin: 0px 3px;
 }
+}
 
-@media (max-width : 375px) {
+@media only screen and (max-width : 375px) {
     .logopara{
         font-weight: 600;
         color : hsl(210, 10%, 33%);
